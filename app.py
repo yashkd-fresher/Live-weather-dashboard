@@ -297,7 +297,12 @@ st.markdown('<div style="background: linear-gradient(135deg, rgba(0, 0, 0, 0.7),
 st.markdown('<div class="search-bar">', unsafe_allow_html=True)
 col1, col2 = st.columns([4, 1])
 with col1:
-    city = st.text_input("City Name", placeholder="Enter city name...", value="Sangli", label_visibility="collapsed")
+    city = st.text_input(
+    label="City Name", 
+    placeholder="Enter city name...", 
+    value="Sangli", 
+    label_visibility="collapsed"
+)
 with col2:
     search_button = st.button("Get Weather", use_container_width=True)
 st.markdown('</div>', unsafe_allow_html=True)
