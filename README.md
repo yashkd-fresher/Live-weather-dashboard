@@ -1,0 +1,1 @@
+Live Weather Dashboard is a Streamlit-based web application that provides real-time weather updates and a five day forecast for any city using the OpenWeather API. The app dynamically adjusts its background based on current weather conditions, creating an immersive experience.
